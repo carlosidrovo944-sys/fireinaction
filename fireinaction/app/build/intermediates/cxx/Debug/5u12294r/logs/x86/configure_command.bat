@@ -1,0 +1,20 @@
+@echo off
+"C:\\Users\\USUARIO\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\USUARIO\\AndroidStudioProjects\\fireinaction\\app\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=30" ^
+  "-DANDROID_PLATFORM=android-30" ^
+  "-DANDROID_ABI=x86" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=x86" ^
+  "-DANDROID_NDK=C:\\Users\\USUARIO\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\USUARIO\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\USUARIO\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\USUARIO\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_CXX_FLAGS=-std=c++17" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\USUARIO\\AndroidStudioProjects\\fireinaction\\app\\build\\intermediates\\cxx\\Debug\\5u12294r\\obj\\x86" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\USUARIO\\AndroidStudioProjects\\fireinaction\\app\\build\\intermediates\\cxx\\Debug\\5u12294r\\obj\\x86" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-DCMAKE_FIND_ROOT_PATH=C:\\Users\\USUARIO\\AndroidStudioProjects\\fireinaction\\app\\.cxx\\Debug\\5u12294r\\prefab\\x86\\prefab" ^
+  "-BC:\\Users\\USUARIO\\AndroidStudioProjects\\fireinaction\\app\\.cxx\\Debug\\5u12294r\\x86" ^
+  -GNinja
